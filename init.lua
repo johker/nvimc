@@ -39,6 +39,7 @@ require("lazy").setup({
   require "plugins.lsp",
   require "plugins.lualine",
   require "plugins.mini",
+  require "plugins.mcphub",
   require "plugins.neo-tree",
   require "plugins.nvim-cmp",
   require "plugins.nvim-dap",

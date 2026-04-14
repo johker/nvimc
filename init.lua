@@ -28,6 +28,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 
+  require "plugins.avante",
   require "plugins.conform",
   require "plugins.gitsigns",
   require "plugins.harpoon",
@@ -37,6 +38,7 @@ require("lazy").setup({
   require "plugins.lazygit",
   require "plugins.lsp",
   require "plugins.lualine",
+  require "plugins.mcphub",
   require "plugins.mini",
   require "plugins.neo-tree",
   require "plugins.nvim-cmp",
